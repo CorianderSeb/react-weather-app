@@ -7,10 +7,10 @@ function App() {
     <div className="App">
       Weather app
       <footer>
-        This project was coded by <a href="https://sebastiancseithel.com/" target="_blank"> Sebastian Seithel</a> and {" "} 
+        This project was coded by <a href="https://sebastiancseithel.com/" target="_blank" rel="noreferrer"> Sebastian Seithel</a> and {" "} 
          <a
           href="https://github.com/CorianderSeb/react-weather-app"
-          target="_blank"
+          target="_blank" rel="noreferrer"
          >open sourced on GitHub.</a>
       </footer>
     </div>
