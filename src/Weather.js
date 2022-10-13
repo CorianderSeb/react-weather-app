@@ -3,7 +3,7 @@ import axios from "axios";
 import { Dna } from "react-loader-spinner";
 
 export default function Weather() {
-  let [city, setCity] = useState("response.data.name");
+  let [city, setCity] = useState("props.city");
   let [weather, setWeather] = useState(null);
 
   function handleSubmit(event) {
